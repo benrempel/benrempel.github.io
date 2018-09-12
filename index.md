@@ -5,9 +5,7 @@
 layout: home
 ---
 <div style="text-align: center;">
-percussionist, improviser, composer
+website in progress... more soon...
 </div>>
 
 ![ben](/assets/drumtv.jpg)
-
-maknig sure this works
