@@ -4,3 +4,8 @@
 
 layout: home
 ---
+<div style="text-align: center;">
+percussionist, improviser, composer
+</div>>
+
+![ben](/assets/drumtv.jpg)
