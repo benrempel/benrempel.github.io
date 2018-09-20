@@ -276,3 +276,7 @@ table {
     display: table;
     clear: both;
 }
+
+.lineacross {
+  border-top: 5px solid $text-color;
+}
