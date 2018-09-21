@@ -13,7 +13,7 @@
 $base-font-family: 'Work Sans', sans-serif !default;
 $title-font-family: 'Work Sans';
 $header-font-family: 'Work Sans';
-$base-font-size:   17px !default;
+$base-font-size:   15px !default;
 $base-font-weight: 400 !default;
 $base-letter-spacing: -0.5px;
 $small-font-size:  $base-font-size * 0.875 !default;
@@ -35,7 +35,7 @@ $table-text-align: left !default;
 $content-width:    1000px !default;
 
 $on-palm:          600px !default;
-$on-laptop:        800px !default;
+$on-laptop:        1000px !default;
 
 // Use media queries like this:
 // @include media-query($on-palm) {
