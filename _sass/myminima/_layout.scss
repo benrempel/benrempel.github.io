@@ -4,7 +4,7 @@
 .site-header {
   border-top: 0px solid $grey-color-dark;
   padding-top: 35px;
-  border-bottom: 5px solid $text-color;
+  border-bottom: 3px solid $text-color;
   min-height: $spacing-unit * 1.865;
 
   // Positioning context for the mobile navigation icon
@@ -12,7 +12,7 @@
 }
 
 .site-title {
-  @include relative-font-size(3.4);
+  @include relative-font-size(2.6);
   font-family: $title-font-family;
   font-weight: 500;
   line-height: $base-line-height * $base-font-size * 2.25;
@@ -31,7 +31,7 @@
   letter-spacing: -0.7px;
   float: right;
   line-height: 0;
-  padding-top: $base-line-height * $base-font-size * 1.15;
+  padding-top: $base-line-height * $base-font-size * 1;
 
   .nav-trigger {
       display: none;
@@ -113,7 +113,7 @@
 .site-footer {
   //border-bottom: 100px solid $text-color;
   //padding: $spacing-unit 0;
-  padding-bottom:20px;
+  padding-bottom:40px;
 }
 
 .footer-heading {
@@ -226,10 +226,10 @@
 
 .post-title,
 .post-content h1 {
-  @include relative-font-size(1.8);
+  @include relative-font-size(1.5);
   font-family: $header-font-family;
   letter-spacing: -1px;
-  line-height: 1;
+  line-height: 0;
 
   @include media-query($on-laptop) {
     @include relative-font-size(2.25);
@@ -249,7 +249,8 @@
 
   h3 {
     @include relative-font-size(1.2);
-
+    font-family: $header-font-family;
+    font-weight: 700;
     @include media-query($on-laptop) {
       @include relative-font-size(1.375);
     }
@@ -259,7 +260,6 @@
     @include relative-font-size(1);
     font-family: $header-font-family;
     letter-spacing: 0px;
-    font-weight: 900;
     @include media-query($on-laptop) {
       @include relative-font-size(1.125);
     }

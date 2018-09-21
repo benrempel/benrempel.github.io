@@ -29,8 +29,8 @@ plugins:
   - jekyll-feed
 
 header_pages:
-  - music.html
   - about.html
+  - music.html
   - contact.html
 
 # Exclude from processing.

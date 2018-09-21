@@ -78,14 +78,14 @@ figcaption {
  * Lists
  */
 ul, ol {
-  margin-left: $spacing-unit;
+  margin-left: $spacing-unit * 0.8;
 }
 
 li {
-  > ul,
-  > ol {
-    margin-bottom: 0;
-  }
+  //> ul,
+  //> ol {
+    margin-bottom: $spacing-unit * 0.5;
+  //}
 }
 
 
@@ -107,11 +107,11 @@ a {
   text-decoration: none;
 
   &:visited {
-    color: darken($brand-color, 15%);
+    //color: darken($brand-color, 15%);
   }
 
   &:hover {
-    color: $text-color;
+    color: $brand-color;
     text-decoration: underline;
   }
 
@@ -278,5 +278,5 @@ table {
 }
 
 .lineacross {
-  border-top: 5px solid $text-color;
+  border-top: 3px solid $text-color;
 }
