@@ -3,16 +3,16 @@
 // Google Fonts
 
 @import url('https://fonts.googleapis.com/css?family=Muli|Work+Sans|Cabin+Condensed|Mukta|Roboto');
-@import url('https://fonts.googleapis.com/css?family=Cousine|Open+Sans|Fira+Sans');
-@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed|Cabin|PT+Sans|PT+Serif');
+//@import url('https://fonts.googleapis.com/css?family=Cousine|Open+Sans|Fira+Sans');
+//@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed|Cabin|PT+Sans|PT+Serif');
 
 
 // Define defaults for each variable.
 
 //$base-font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol" !default;
 $base-font-family: 'Work Sans', sans-serif !default;
-$title-font-family: 'Work Sans';
-$header-font-family: 'Work Sans';
+$title-font-family: 'Work Sans', sans-serif;
+$header-font-family: 'Work Sans', sans-serif;
 $base-font-size:   15px !default;
 $base-font-weight: 400 !default;
 $base-letter-spacing: -0.5px;
@@ -21,7 +21,7 @@ $base-line-height: 1.5 !default;
 
 $spacing-unit:     30px !default;
 
-$text-color:       #4a2222 !default;
+$text-color:       #3a1b1b !default;
 $background-color: #fdfdfd !default;
 $brand-color:      #b33 !default;
 
