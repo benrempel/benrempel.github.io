@@ -14,6 +14,7 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 title: Ben Rempel
+subtitle: percussionist
 email:
 description: >- # this means to ignore newlines until "baseurl:"
   Ben Rempel: percussionist, improviser, composer.
@@ -32,6 +33,7 @@ plugins:
 
 header_pages:
   - about.html
+  - performances.html
   - music.html
   - contact.html
 
