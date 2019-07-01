@@ -26,6 +26,17 @@
   }
 }
 
+.site-subtitle {
+  @include relative-font-size(1.2);
+  font-family: $title-font-family;
+  font-weight: 500;
+  line-height: $base-line-height * $base-font-size * 2.7;
+  letter-spacing: -1px;
+  margin-bottom: 0;
+  margin-left: 5px;
+  float: left;
+}
+
 .site-nav {
   font-family: $header-font-family;
   letter-spacing: -0.7px;
